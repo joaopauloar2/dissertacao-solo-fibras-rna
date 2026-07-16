@@ -34,14 +34,12 @@ ensaios triaxiais experimentais, avaliado por validação cruzada *leave-one-out
     ├── fig3_loocv_dispersao.png              Dispersão previsto x observado
     ├── fig4_loocv_historico.png              Evolução da função de perda
     ├── curvas_sinteticas_verificacao.png     Verificação das curvas sintéticas
+    ├── loocv_predicoes.npz                   previsões ponto a ponto da validação cruzada
     └── ablacao_e_linha_base/
         ├── linha_base_analitica.csv          R² por ensaio do modelo analítico
         ├── ablacao_5sementes.csv             Resumo da ablação (5 sementes x 2 configurações)
         └── ablacao_5sementes_folds.csv       Detalhamento por fold da ablação (240 linhas)
 ```
-
-> Observação: o arquivo `loocv_predicoes.npz`, com as previsões ponto a ponto
-> da validação cruzada, também faz parte dos resultados.
 
 ## Como reproduzir
 
